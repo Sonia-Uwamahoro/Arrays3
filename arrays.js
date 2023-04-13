@@ -15,8 +15,7 @@ petString(pets);
 let numbers = [1,2,3,4,5,6,7,8,9,10];
 function newArray() {
 numbers.forEach(function(number){
-    let multiplyNumbers;
-    multiplyNumbers = (number * 2);
+    let multiplyNumbers = (number * 2);
     number = multiplyNumbers;
     console.log(number)
    });
@@ -25,8 +24,7 @@ numbers = (newArray());
 
 
 
-// Write a function that takes in an array of numbers and consoles the first four items multiplied by 8 and the last two added by 5. 
-// Console the array with the new values
+// function that takes in an array of numbers and consoles the first four items multiplied by 8 and the last two added by 5.Console the array with the new values
 
 let number = [1,2,3,4,5,6,7,8,9,10];
 let newArrays = [];
@@ -50,9 +48,7 @@ function newNumber(number){
 newNumber(number)
 
 
-// Write a function that takes in the following array and use a while loop to iterate and break when 
-// the item is equal to the fourth index
-// let arrNum = [1,2,3,4,5,6,7,8,9];
+// function that takes in the following array and use a while loop to iterate and break when the item is equal to the fourth index
 
 let arrNum = [19,2,73,24,5,6,7,8,9];
 
@@ -71,20 +67,24 @@ arrNumbers(arrNum);
 
 
 
-// Write a function that takes in a an array of strings and use a continue statement when the item is 
-// at the second index
+// function that takes in a an array of strings and use a continue statement when the item is at the second index
 
 let fruits= ['apple','plum','banana','strawberries','kiwi']
-
+ 
 function fruitsArray(fruits){
     for(i = 0; i < fruits.length; i++){
         if(i === 2){
             continue;
         }
-        console.log({"continue":fruits[i]}); // we want to skip 3 used for skipping that index
+        console.log({"continue":fruits[i]});
     }
 }
 fruitsArray(fruits);
+
+
+
+
+
 
 
 
